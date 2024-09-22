@@ -1,0 +1,88 @@
+body
+{
+    box-sizing: border-box;
+    
+}
+*
+{
+    font-family: cursive;
+}
+.container1
+{
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 3%;
+}
+.container2
+{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.btns
+{
+    border-radius: 50%;
+    padding: 2%;    
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background-color: blue;
+    color: white;
+}
+.container3
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(36, 90, 39);
+}
+.resetButton
+{
+    background-color: coral;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 1%;
+}
+.disablebtn
+{
+    /* pointer-events: none; */
+    background-color: blue;
+}
+.attemptsDiv
+{
+    font-size: 25px;
+    margin-left: 80%;
+}
+.container4
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+.container4 .card
+{
+    border: 2px dashed wheat;
+    transition: transform .2s;
+    /* background-color:rgb(181, 212, 212); */
+    background-color:azure;
+}
+.container4 .card:hover
+{
+    border: 2px solid rgb(165, 165, 238);
+    transform: scale(1.05);
+}
+.container4 ul
+{
+    padding: 2%;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.playnow
+{
+    margin-top: 2%;
+    text-align: center;
+}
+.playnow a
+{
+    font-size: 25px;
+    text-decoration: none;
+}
